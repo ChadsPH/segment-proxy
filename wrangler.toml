@@ -1,0 +1,9 @@
+name = "segment-proxy"
+main = "segment-worker.js"
+compatibility_date = "2024-04-01"
+
+# Free plan workers.dev subdomain — no custom domain needed.
+# After `wrangler deploy` you'll get:
+#   https://segment-proxy.<your-subdomain>.workers.dev
+#
+# Paste that URL into vercel.json (see below).
